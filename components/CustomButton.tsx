@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { CustomButtonProps } from "@types";
 
-const Button = ({ containerStyles, title, handleClick }: CustomButtonProps) => (
+const CustomButton = ({ containerStyles, title, handleClick }: CustomButtonProps) => (
   <button
     disabled={false}
     type={"button"}
@@ -14,4 +14,4 @@ const Button = ({ containerStyles, title, handleClick }: CustomButtonProps) => (
   </button>
 );
 
-export default Button;
+export default CustomButton;
